@@ -13,11 +13,7 @@ struct DateScroller: View {
     @Environment(\.managedObjectContext) private var viewContext
     
     @State var date: Date = Date()
-    
-    
-    
-    
-    
+
     var body: some View
     {
         HStack

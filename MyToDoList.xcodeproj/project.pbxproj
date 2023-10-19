@@ -26,7 +26,6 @@
 		FF3694EF2A9CF65D005EB026 /* TaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694EE2A9CF65D005EB026 /* TaskFilter.swift */; };
 		FF3694F12A9D4522005EB026 /* DateFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694F02A9D4522005EB026 /* DateFilter.swift */; };
 		FF3694F72A9DC9EA005EB026 /* PriorityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694F62A9DC9EA005EB026 /* PriorityFilter.swift */; };
-		FF3694FB2A9FCC60005EB026 /* TagsEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694FA2A9FCC60005EB026 /* TagsEditView.swift */; };
 		FF3694FD2A9FD720005EB026 /* TaskTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694FC2A9FD720005EB026 /* TaskTags.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +70,6 @@
 		FF3694EE2A9CF65D005EB026 /* TaskFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilter.swift; sourceTree = "<group>"; };
 		FF3694F02A9D4522005EB026 /* DateFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilter.swift; sourceTree = "<group>"; };
 		FF3694F62A9DC9EA005EB026 /* PriorityFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityFilter.swift; sourceTree = "<group>"; };
-		FF3694FA2A9FCC60005EB026 /* TagsEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsEditView.swift; sourceTree = "<group>"; };
 		FF3694FC2A9FD720005EB026 /* TaskTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTags.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,7 +166,6 @@
 				FF3694E12A9BBAF3005EB026 /* TaskEditView.swift */,
 				FF3694E52A9BCD3A005EB026 /* TaskCell.swift */,
 				FF3694E72A9BCE43005EB026 /* CheckBoxView.swift */,
-				FF3694FA2A9FCC60005EB026 /* TagsEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -329,7 +326,6 @@
 				FF3694E62A9BCD3A005EB026 /* TaskCell.swift in Sources */,
 				FF3694ED2A9BD591005EB026 /* DateScroller.swift in Sources */,
 				FF3694FD2A9FD720005EB026 /* TaskTags.swift in Sources */,
-				FF3694FB2A9FCC60005EB026 /* TagsEditView.swift in Sources */,
 				FF3694E22A9BBAF3005EB026 /* TaskEditView.swift in Sources */,
 				FF3694AF2A9BB7B0005EB026 /* MyToDoListApp.swift in Sources */,
 				FF3694BB2A9BB7B1005EB026 /* MyToDoList.xcdatamodeld in Sources */,
