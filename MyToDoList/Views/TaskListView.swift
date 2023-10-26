@@ -12,6 +12,9 @@ struct TaskListView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @EnvironmentObject var dateHolder: DateHolder
     
+    @State var isDrawerOpen: Bool = false
+    @State var selectedDrawerTab = 0
+    
     @State var date: Date = Date()
     @State var startDate: Date = Date()
     @State var endDate: Date = Date()
@@ -83,12 +86,19 @@ struct TaskListView: View {
                         }
                         .onDelete(perform: deleteItems)
                     }
-                    .navigationTitle("My To Do List")
-                    .navigationBarTitleDisplayMode(.inline)
                     FloatingButton()
                         .environmentObject(dateHolder)
                 }
             }
+            .navigationBarTitle("My To Do List")
+            .navigationBarItems(leading: Button(action: {
+                self.isDrawerOpen.toggle()
+                })
+                                {
+                Image(systemName: "sidebar.left")
+            })
+            .navigationBarTitleDisplayMode(.inline)
+
         }
     }
     
@@ -130,6 +140,8 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
+        let dateHolder = DateHolder(PersistenceController.preview.container.viewContext)
         TaskListView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        .environmentObject(dateHolder)
     }
 }
