@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF05054D2AE8526E00E3FAAB /* NavDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF05054C2AE8526E00E3FAAB /* NavDrawerView.swift */; };
 		FF3694AF2A9BB7B0005EB026 /* MyToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694AE2A9BB7B0005EB026 /* MyToDoListApp.swift */; };
 		FF3694B12A9BB7B0005EB026 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694B02A9BB7B0005EB026 /* TaskListView.swift */; };
 		FF3694B32A9BB7B1005EB026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3694B22A9BB7B1005EB026 /* Assets.xcassets */; };
@@ -28,11 +27,6 @@
 		FF3694F12A9D4522005EB026 /* DateFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694F02A9D4522005EB026 /* DateFilter.swift */; };
 		FF3694F72A9DC9EA005EB026 /* PriorityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694F62A9DC9EA005EB026 /* PriorityFilter.swift */; };
 		FF3694FD2A9FD720005EB026 /* TaskTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3694FC2A9FD720005EB026 /* TaskTags.swift */; };
-		FFD3282C2AE5BDA20016BEF5 /* NavigationDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD3282B2AE5BDA20016BEF5 /* NavigationDrawer.swift */; };
-		FFD3282E2AE5C5360016BEF5 /* NavigationDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD3282D2AE5C5360016BEF5 /* NavigationDrawerView.swift */; };
-		FFD328312AE5CCD40016BEF5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD328302AE5CCD40016BEF5 /* HomeView.swift */; };
-		FFD328332AE5CCF40016BEF5 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD328322AE5CCF40016BEF5 /* TagsView.swift */; };
-		FFD328352AE5CCFF0016BEF5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD328342AE5CCFF0016BEF5 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF05054C2AE8526E00E3FAAB /* NavDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerView.swift; sourceTree = "<group>"; };
 		FF3694AB2A9BB7B0005EB026 /* MyToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3694AE2A9BB7B0005EB026 /* MyToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoListApp.swift; sourceTree = "<group>"; };
 		FF3694B02A9BB7B0005EB026 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
@@ -78,11 +71,6 @@
 		FF3694F02A9D4522005EB026 /* DateFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilter.swift; sourceTree = "<group>"; };
 		FF3694F62A9DC9EA005EB026 /* PriorityFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityFilter.swift; sourceTree = "<group>"; };
 		FF3694FC2A9FD720005EB026 /* TaskTags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTags.swift; sourceTree = "<group>"; };
-		FFD3282B2AE5BDA20016BEF5 /* NavigationDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawer.swift; sourceTree = "<group>"; };
-		FFD3282D2AE5C5360016BEF5 /* NavigationDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDrawerView.swift; sourceTree = "<group>"; };
-		FFD328302AE5CCD40016BEF5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		FFD328322AE5CCF40016BEF5 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
-		FFD328342AE5CCFF0016BEF5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +160,6 @@
 		FF3694E02A9BBAD4005EB026 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FFD328282AE5BD030016BEF5 /* Navigation Drawer */,
 				FF3694B02A9BB7B0005EB026 /* TaskListView.swift */,
 				FF3694EC2A9BD591005EB026 /* DateScroller.swift */,
 				FF3694DE2A9BBA64005EB026 /* FloatingButton.swift */,
@@ -195,27 +182,6 @@
 				FF3694FC2A9FD720005EB026 /* TaskTags.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		FFD328282AE5BD030016BEF5 /* Navigation Drawer */ = {
-			isa = PBXGroup;
-			children = (
-				FFD3282F2AE5CCBF0016BEF5 /* Tabs */,
-				FFD3282B2AE5BDA20016BEF5 /* NavigationDrawer.swift */,
-				FFD3282D2AE5C5360016BEF5 /* NavigationDrawerView.swift */,
-				FF05054C2AE8526E00E3FAAB /* NavDrawerView.swift */,
-			);
-			path = "Navigation Drawer";
-			sourceTree = "<group>";
-		};
-		FFD3282F2AE5CCBF0016BEF5 /* Tabs */ = {
-			isa = PBXGroup;
-			children = (
-				FFD328302AE5CCD40016BEF5 /* HomeView.swift */,
-				FFD328322AE5CCF40016BEF5 /* TagsView.swift */,
-				FFD328342AE5CCFF0016BEF5 /* SettingsView.swift */,
-			);
-			path = Tabs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,17 +319,11 @@
 				FF3694F12A9D4522005EB026 /* DateFilter.swift in Sources */,
 				FF3694B82A9BB7B1005EB026 /* Persistence.swift in Sources */,
 				FF3694B12A9BB7B0005EB026 /* TaskListView.swift in Sources */,
-				FFD328352AE5CCFF0016BEF5 /* SettingsView.swift in Sources */,
 				FF3694EF2A9CF65D005EB026 /* TaskFilter.swift in Sources */,
-				FFD3282C2AE5BDA20016BEF5 /* NavigationDrawer.swift in Sources */,
 				FF3694DF2A9BBA64005EB026 /* FloatingButton.swift in Sources */,
-				FF05054D2AE8526E00E3FAAB /* NavDrawerView.swift in Sources */,
 				FF3694F72A9DC9EA005EB026 /* PriorityFilter.swift in Sources */,
-				FFD328312AE5CCD40016BEF5 /* HomeView.swift in Sources */,
 				FF3694E82A9BCE43005EB026 /* CheckBoxView.swift in Sources */,
 				FF3694E62A9BCD3A005EB026 /* TaskCell.swift in Sources */,
-				FFD3282E2AE5C5360016BEF5 /* NavigationDrawerView.swift in Sources */,
-				FFD328332AE5CCF40016BEF5 /* TagsView.swift in Sources */,
 				FF3694ED2A9BD591005EB026 /* DateScroller.swift in Sources */,
 				FF3694FD2A9FD720005EB026 /* TaskTags.swift in Sources */,
 				FF3694E22A9BBAF3005EB026 /* TaskEditView.swift in Sources */,

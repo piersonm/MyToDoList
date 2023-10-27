@@ -91,17 +91,12 @@ struct TaskListView: View {
                 }
             }
             .navigationBarTitle("My To Do List")
-            .navigationBarItems(leading: Button(action: {
-                self.isDrawerOpen.toggle()
-                })
-                                {
-                Image(systemName: "sidebar.left")
-            })
             .navigationBarTitleDisplayMode(.inline)
-
+            .frame(width: UIScreen.main.bounds.width)
+            
         }
     }
-    
+
     
     private func filterTaskItems() -> [TaskItem]
     {
